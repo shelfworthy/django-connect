@@ -4,7 +4,6 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render_to_response
 
 from connect.functions import get_connections
-from elsewhere import SOCIAL_NETWORKS
 
 def list(request):
     connections = get_connections(['chrisdrackett.com',])
