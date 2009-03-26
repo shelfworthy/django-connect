@@ -26,7 +26,8 @@ other online social networks.
 Dependencies:
 ------------
 
-* Django 1.0
+* Django trunk
+* [django-elsewhere] (http://github.com/leah/django-elsewhere)
 
 Other resources:
 ----------------
