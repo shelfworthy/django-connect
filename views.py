@@ -8,7 +8,6 @@ from connect.functions import get_connections
 def list(request):
     connections = get_connections(['chrisdrackett.com',])
 
-
     return render_to_response(
         'connect/list.html',
         {'connections': connections,},
