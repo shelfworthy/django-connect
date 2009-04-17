@@ -1,5 +1,5 @@
 django-connect - Social Graph Syncing for Django
-===================================
+-------------------------
 
 ============================================================================================================
 = NOTE: This code currently does nothing. I'll be updating it in the next week or so.. watch this space... =
@@ -9,7 +9,10 @@ django-connect - Social Graph Syncing for Django
 Authors:
 ------------
 * [Chris Drackett] (http://chrisdrackett.com/)
-* Please send feedback to chris@shelfworthy.com
+
+Issues:
+---------
+please report bugs, issues, or suggestions [here](http://chrisdrackett.lighthouseapp.com/projects/29415-django-connect)
 
 
 Install:
