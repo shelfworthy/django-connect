@@ -41,8 +41,6 @@ def get_connections(urls):
 
     return final_list
 
-
-
 # http://pownce.com/[\w-]+/something
 
 # def get_friends_from_twitter(username):

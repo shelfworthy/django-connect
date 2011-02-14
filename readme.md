@@ -1,16 +1,18 @@
-django-connect - Social Graph Syncing for Django
--------------------------
+django-connect
+==============
 
-**NOTE: This code currently does nothing. I'll be updating it in the next week or so.. watch this space...
+This app will connect the users of your django app to 3rd party sites. It is designed to support the following use cases:
 
-Authors:
-------------
-* [Chris Drackett] (http://chrisdrackett.com/)
+* registration (facebook, twitter, password)
+* login (facebook, twitter, password)
+* finding friends (facebook, twitter)
+* using an avatar (facebook, twitter, gravatar, user upload)
+* displaying links to a users 3rd party profiles (facebook, twitter)
+* syncing data with 3rd party sites (facebook, twitter)
 
 Issues:
 ---------
-please report bugs, issues, or suggestions [here](http://chrisdrackett.lighthouseapp.com/projects/29415-django-connect)
-
+please report bugs, issues, or suggestions [here](https://shelfworthy.lighthouseapp.com/projects/69905-django-connect)
 
 Install:
 ------------
@@ -21,18 +23,9 @@ A quick shortcut is to checkout the project directly into your Python path:
 
 	git clone git://github.com/chrisdrackett/django-connect.git connect
 
+Or use pip:
 
-About:
-------------
-
-Django-elsewhere allows users of a website to provide and display information about their 
-other online social networks.
-
-Dependencies:
-------------
-
-* Django trunk
-* [django-elsewhere] (http://github.com/leah/django-elsewhere)
+	pip install django-connect
 
 Other resources:
 ----------------
