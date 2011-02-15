@@ -11,6 +11,10 @@ setup(
     packages = [
         "connect",
     ],
+    # TODO uncomment when oauth access is in pip
+    # install_requires = [
+    #     'django-oauth-access',
+    # ],
     classifiers = [
         "Development Status :: 2 - Pre-Alpha",
         "Environment :: Web Environment",
